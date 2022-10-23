@@ -1,0 +1,5 @@
+type Cat @model @auth(rules: [{allow: public}]) {
+  id: String!
+  name: String!
+  color: String!
+}
